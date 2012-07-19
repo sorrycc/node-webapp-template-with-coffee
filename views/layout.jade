@@ -1,0 +1,18 @@
+!!!5
+html
+  head
+    title= "Home - " + title
+    link(rel="stylesheet", href="/stylesheets/#{stylesheet}.css")
+
+  body
+
+    #page
+      
+      #header
+        h1= title
+
+      #content
+        != body
+
+    script(src="/javascripts/support/jquery-1.7.2.min.js")
+    script(src="/javascripts/#{javascript}.js")
