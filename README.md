@@ -3,7 +3,7 @@
 这是一个基于 CoffeeScript 的 NodeJS 全堆栈案例。
 
 ## 组合
-* express + jade + coffee-script + mongoskin + mocha + sync
+* express + jade + coffee-script + stylus + mongoskin + mocha + sync
 
 ## 特点
 1. 区分 MVC
@@ -20,3 +20,4 @@
 `npm run devserver`
 3. 运行测试用例
 `npm run test`
+

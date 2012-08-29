@@ -2,17 +2,17 @@
 html
   head
     title= "Home - " + title
-    link(rel="stylesheet", href="/stylesheets/#{stylesheet}.css")
+    != css("home")
 
   body
 
     #page
-      
+
       #header
         h1= title
 
       #content
         != body
 
-    script(src="/javascripts/support/jquery-1.7.2.min.js")
-    script(src="/javascripts/#{javascript}.js")
+    script(src="/js/support/jquery-1.7.2.min.js")
+    != js("home")
